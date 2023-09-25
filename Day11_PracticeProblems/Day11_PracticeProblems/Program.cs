@@ -15,7 +15,7 @@ namespace Day11_PracticeProblems
             bool interested = true;
             while (interested)
             {
-                Console.WriteLine("Enter your choice.\n   1   -->   Reverse String.\n" +
+                Console.WriteLine("Enter your choice.\n   1   -->   Reverse String.\n   2   -->   Sum Of Digits in given number.\n" +
                     "   0   -->   QUIT");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -23,6 +23,11 @@ namespace Day11_PracticeProblems
                     case 1:
                         ReverseEachWord reverseEachWord = new ReverseEachWord();
                         reverseEachWord.RevString();
+                        Console.ReadLine();
+                        break;
+                    case 2:
+                        DigitsSum digitsSum = new DigitsSum();
+                        digitsSum.SumOfDigits();
                         Console.ReadLine();
                         break;
                     case 0:
