@@ -16,7 +16,7 @@ namespace Day11_PracticeProblems
             while (interested)
             {
                 Console.WriteLine("Enter your choice.\n   1   -->   Reverse String.\n   2   -->   Sum Of Digits in given number.\n" +
-                    "   3   -->   Row matrix sum.\n   4   -->   Down Triangle Pattern.\n   0   -->   QUIT");
+                    "   3   -->   Row matrix sum.\n   4   -->   Down Triangle Pattern.\n   5   -->   Zero Pattern.\n   0   -->   QUIT");
                 int choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
@@ -39,6 +39,11 @@ namespace Day11_PracticeProblems
                     case 4:
                         DownTrianglePattern downTrianglePattern = new DownTrianglePattern();
                         downTrianglePattern.TrianglePattern();
+                        Console.ReadLine();
+                        break;
+                    case 5:
+                        PatternO zeroPattern = new PatternO();    
+                        zeroPattern.GetZeroPattern();
                         Console.ReadLine();
                         break;
                     case 0:
