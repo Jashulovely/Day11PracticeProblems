@@ -46,6 +46,7 @@
     <Compile Include="DigitsSum.cs" />
     <Compile Include="DownTrianglePattern.cs" />
     <Compile Include="DuplicatesCount.cs" />
+    <Compile Include="FrequencyCount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseEachWord.cs" />
