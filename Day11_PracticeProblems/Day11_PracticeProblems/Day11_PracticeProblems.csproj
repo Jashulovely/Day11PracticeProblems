@@ -51,6 +51,7 @@
     <Compile Include="ReverseEachWord.cs" />
     <Compile Include="RowMatrixSum.cs" />
     <Compile Include="PatternO.cs" />
+    <Compile Include="UniqueElements.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
